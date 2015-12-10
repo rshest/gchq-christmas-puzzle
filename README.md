@@ -1,4 +1,4 @@
-![MiniZinc](http://www.minizinc.org/) solution to the first step of the ["Christmas GCHQ Puzzle"](http://www.telegraph.co.uk/news/uknews/12041894/GCHQ-Christmas-card-question-Do-you-know-the-puzzle-answer.html):
+[MiniZinc](http://www.minizinc.org/) solution to the first step of the ["Christmas GCHQ Puzzle"](http://www.telegraph.co.uk/news/uknews/12041894/GCHQ-Christmas-card-question-Do-you-know-the-puzzle-answer.html):
 
 ![](img/puzzle.jpg)
 
