@@ -8,12 +8,12 @@ set of int: M = 1..m;
 array[int] of N: sh; % stub cells: horizontal position
 array[int] of N: sv; % stub cells: vertical position
 
-array[N, M] of 0..n: hs; % interval start positions - horizontal
-array[N, M] of 0..n: vs; % interval start positions - vertical
+array[N, M] of 0..n: hs; % interval lengths - horizontal
+array[N, M] of 0..n: vs; % interval lengths - vertical
 
 % unknowns
-array[N, M] of var N: hof; % the intervals' offsets (horizontal)
-array[N, M] of var N: vof; % the intervals' offsets (vertical)
+array[N, M] of var N: hof; % the intervals' start positions - horizontal
+array[N, M] of var N: vof; % the intervals' start positions - vertical
 
 array[N, N] of var 0..1: x; % the grid itself
 
