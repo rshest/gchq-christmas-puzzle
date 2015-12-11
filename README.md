@@ -1,5 +1,17 @@
 [MiniZinc](http://www.minizinc.org/) solution to the first step of the ["Christmas GCHQ Puzzle"](http://www.telegraph.co.uk/news/uknews/12041894/GCHQ-Christmas-card-question-Do-you-know-the-puzzle-answer.html):
 
+##### The constraints:
+
+It is similar to the Sudoku puzzle, with a little bit more complex vertical/horizontal constraints.
+
+* The first constraints is for the "fixed" cells to be in place
+* The other two (almost identical) groups of horizontal/vertical constraints ensure that:
+..* The provided intervals have 1's all along
+..* Every interval (except of the first one) has a preceding 0 AND the intervals do not overlap
+..* The total amount in 1's in every row/column is the same as the sum of the provided intervals' lengths
+
+##### The puzzle itself:
+
 ![](img/puzzle.jpg)
 
 > In this type of grid-shading puzzle, each square is either black or white. 

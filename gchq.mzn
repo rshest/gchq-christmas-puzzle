@@ -38,6 +38,6 @@ constraint forall(j in N)
 
 solve satisfy;
 
-output [show(if x[j, i] == 1 then "█" else " " endif) ++
+output [show(if x[j, i] == 1 then "██" else "  " endif) ++
   if i == n then "\n" else "" endif
   | j in N, i in N];
